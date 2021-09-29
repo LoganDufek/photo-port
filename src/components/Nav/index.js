@@ -14,9 +14,7 @@ useEffect(() => {
     document.title = capitalizeFirstLetter(currentCategory.name);
   }, [currentCategory]);
 
-    function categorySelected(cName) {
-  console.log(`${cName} was clicked`)
-}
+
 
     return (
         <header data-testid="header" className="flex-row px-1">
